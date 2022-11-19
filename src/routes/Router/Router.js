@@ -1,3 +1,4 @@
+import Appointment from "../../pages/Appointment/Appointment/Appointment";
 import Home from "../../pages/Home/Home/Home";
 
 const { createBrowserRouter } = require("react-router-dom");
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
             {
                 path: '/', 
                 element: <Home></Home>
+            },
+            {
+                path: '/appointment',
+                element: <Appointment></Appointment>
             }
         ]
 

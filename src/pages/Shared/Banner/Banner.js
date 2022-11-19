@@ -1,7 +1,8 @@
 import React from 'react';
 import chair from '../../../assets/images/chair.png';
 import PrimaryButton from '../../../components/PrimaryButton/PrimaryButton';
-// import PrimaryButton from '../../../assets/';
+
+
 
 const Banner = () => {
     return (
