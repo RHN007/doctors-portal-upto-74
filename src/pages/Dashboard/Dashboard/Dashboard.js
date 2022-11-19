@@ -1,11 +1,13 @@
 import React from 'react';
 
+import MyAppointment from '../MyAppointment/MyAppointment';
+
 
 const Dashboard = () => {
     return (
 
         <div>
-            <h2>Coming Soooooooon</h2>
+          <MyAppointment></MyAppointment>
         </div>
 
     );
