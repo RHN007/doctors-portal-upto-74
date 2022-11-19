@@ -1,4 +1,5 @@
 import Appointment from "../../pages/Appointment/Appointment/Appointment";
+import Dashboard from "../../pages/Dashboard/Dashboard/Dashboard";
 import Home from "../../pages/Home/Home/Home";
 import Login from "../../pages/Login/Login";
 import SignUp from "../../pages/Signup/Signup";
@@ -28,8 +29,14 @@ const router = createBrowserRouter([
                 path: '/signup', 
                 element: <SignUp></SignUp>
             }
+            ,
+        
         ]
 
+    },
+    {
+        path:'/dashboard',
+        element: <Dashboard></Dashboard>
     }
 
 ])
