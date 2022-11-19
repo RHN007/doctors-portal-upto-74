@@ -1,7 +1,8 @@
 
+import { DayPicker } from 'react-day-picker';
 import chair from '../../../assets/images/chair.png'
 
-import { DayPicker } from 'react-day-picker';
+
 import useTitle from '../../../hooks/UseTitle';
 
 const AppointmentBanner = ({selectedDate,setSelectedDate}) => {
